@@ -39,7 +39,7 @@
             app:layout_constraintTop_toBottomOf="@id/image"
             tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor re et dolore magna aliqua. Ut enim ad minim veniam" />
 
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/image_card"
             android:layout_width="200dp"
             android:layout_height="120dp"
@@ -56,7 +56,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 tools:src="@color/black" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/time"

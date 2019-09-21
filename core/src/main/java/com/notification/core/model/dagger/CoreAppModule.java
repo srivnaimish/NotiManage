@@ -1,9 +1,8 @@
 package com.notification.core.model.dagger;
 
-import android.arch.persistence.room.Room;
+import androidx.room.Room;
 import android.content.Context;
 
-import com.google.firebase.analytics.FirebaseAnalytics;
 import com.notification.core.model.dagger.inject.PerApplication;
 import com.notification.core.model.dagger.qualifiers.ApplicationContext;
 import com.notification.core.model.room.MessengerDB;

@@ -1,6 +1,6 @@
 package com.notification.core.model;
 
-import android.support.annotation.StringDef;
+import androidx.annotation.StringDef;
 
 /**
  * Created by Naimish on 21/02/2019

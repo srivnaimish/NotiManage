@@ -1,9 +1,9 @@
 package com.notification.core.view.activity.landing;
 
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.notification.core.view.fragment.allNotifications.AllNotificationsFragment;
 import com.notification.core.view.fragment.newNotifications.NewNotificationsFragment;

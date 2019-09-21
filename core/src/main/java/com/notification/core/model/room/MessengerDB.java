@@ -3,8 +3,8 @@ package com.notification.core.model.room;
 /**
  * Created by naimish on 07/12/2018
  */
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 import com.notification.core.model.room.dao.NotificationDao;
 import com.notification.core.model.room.entity.NotificationEntity;

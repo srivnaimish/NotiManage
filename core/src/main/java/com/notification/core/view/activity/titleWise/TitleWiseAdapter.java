@@ -1,8 +1,8 @@
 package com.notification.core.view.activity.titleWise;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.util.DiffUtil;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.DiffUtil;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -12,8 +12,6 @@ import com.notification.core.R;
 import com.notification.core.model.dagger.qualifiers.ApplicationContext;
 import com.notification.core.model.pojo.NotificationRow;
 import com.notification.core.model.pojo.BaseRow;
-import com.notification.core.utils.Constants;
-import com.notification.core.utils.Utilities;
 import com.notification.core.view.adapters.BasePageAdapter;
 import com.notification.core.view.viewholders.BaseViewHolder;
 import com.notification.core.view.viewholders.TitleNotificationsViewHolder;

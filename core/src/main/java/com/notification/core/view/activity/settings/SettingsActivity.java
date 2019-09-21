@@ -1,12 +1,10 @@
 package com.notification.core.view.activity.settings;
 
 import android.os.AsyncTask;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
-import android.view.View;
+import androidx.appcompat.widget.Toolbar;
 
 import javax.inject.Inject;
 

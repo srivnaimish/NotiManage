@@ -9,12 +9,11 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
 import com.notification.core.R;
 import com.notification.core.model.room.dao.NotificationDao;
 import com.notification.core.utils.Constants;
-import com.notification.core.utils.SharedPrefUtil;
 import com.notification.core.utils.Utilities;
 import com.notification.core.view.activity.landing.LandingActivity;
 

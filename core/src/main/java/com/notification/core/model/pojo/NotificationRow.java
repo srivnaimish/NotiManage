@@ -1,7 +1,7 @@
 package com.notification.core.model.pojo;
 
-import android.arch.persistence.room.ColumnInfo;
-import android.arch.persistence.room.Ignore;
+import androidx.room.ColumnInfo;
+import androidx.room.Ignore;
 
 /**
  * Created by naimish on 11/12/2018

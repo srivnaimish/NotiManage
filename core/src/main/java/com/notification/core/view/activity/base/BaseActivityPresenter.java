@@ -1,10 +1,6 @@
 package com.notification.core.view.activity.base;
 
-import android.support.annotation.CallSuper;
-
-import javax.inject.Inject;
-
-import io.reactivex.disposables.CompositeDisposable;
+import androidx.annotation.CallSuper;
 
 /**
  * Created by anuragdalia on 08/04/18.

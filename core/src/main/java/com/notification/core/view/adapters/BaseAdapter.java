@@ -1,6 +1,6 @@
 package com.notification.core.view.adapters;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.notification.core.utils.Constants;
 

@@ -1,7 +1,7 @@
 package com.notification.core.view.viewholders;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -9,7 +9,6 @@ import android.widget.TextView;
 import com.notification.core.R;
 import com.notification.core.model.pojo.BaseRow;
 import com.notification.core.model.pojo.SearchRow;
-import com.notification.core.utils.DateTimeUtils;
 import com.notification.core.utils.Utilities;
 
 /**

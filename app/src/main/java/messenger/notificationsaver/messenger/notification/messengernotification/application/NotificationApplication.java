@@ -1,7 +1,7 @@
 package messenger.notificationsaver.messenger.notification.messengernotification.application;
 
 import android.content.Context;
-import android.support.multidex.MultiDex;
+import androidx.multidex.MultiDex;
 
 import com.facebook.stetho.Stetho;
 import com.google.firebase.FirebaseApp;

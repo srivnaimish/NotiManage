@@ -1,6 +1,6 @@
 package com.notification.core.view.activity.titleWise;
 
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProviders;
 
 import dagger.Module;
 import dagger.Provides;

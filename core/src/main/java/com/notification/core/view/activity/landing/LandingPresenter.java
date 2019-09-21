@@ -2,7 +2,7 @@ package com.notification.core.view.activity.landing;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.support.v4.app.NotificationManagerCompat;
+import androidx.core.app.NotificationManagerCompat;
 import android.view.MenuItem;
 
 import java.util.Set;
@@ -13,7 +13,6 @@ import com.notification.core.R;
 import com.notification.core.model.dagger.qualifiers.ApplicationContext;
 import com.notification.core.model.notifications.AppNotifications;
 import com.notification.core.model.room.dao.NotificationDao;
-import com.notification.core.utils.Constants;
 import com.notification.core.utils.SharedPrefUtil;
 import com.notification.core.utils.Utilities;
 import com.notification.core.view.activity.base.BaseActivityPresenter;

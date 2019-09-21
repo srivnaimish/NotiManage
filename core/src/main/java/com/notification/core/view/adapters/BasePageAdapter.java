@@ -1,8 +1,8 @@
 package com.notification.core.view.adapters;
 
-import android.arch.paging.PagedListAdapter;
-import android.support.annotation.NonNull;
-import android.support.v7.util.DiffUtil;
+import androidx.paging.PagedListAdapter;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.DiffUtil;
 
 import com.notification.core.utils.Constants;
 import com.notification.core.view.viewholders.BaseViewHolder;

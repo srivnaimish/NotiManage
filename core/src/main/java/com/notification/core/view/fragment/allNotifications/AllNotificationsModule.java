@@ -1,6 +1,6 @@
 package com.notification.core.view.fragment.allNotifications;
 
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProviders;
 
 import dagger.Module;
 import dagger.Provides;
