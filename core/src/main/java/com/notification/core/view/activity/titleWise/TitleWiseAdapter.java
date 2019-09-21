@@ -1,5 +1,6 @@
 package com.notification.core.view.activity.titleWise;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
@@ -35,6 +36,7 @@ public class TitleWiseAdapter extends BasePageAdapter<NotificationRow, BaseViewH
             return oldItem.getTitle().equals(newItem.getTitle());
         }
 
+        @SuppressLint("DiffUtilEquals")
         @Override
         public boolean areContentsTheSame(@NonNull NotificationRow oldItem, @NonNull NotificationRow newItem) {
             return oldItem.equals(newItem);

@@ -1,5 +1,6 @@
 package com.notification.core.view.activity.search;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
@@ -35,6 +36,7 @@ public class SearchAdapter extends BasePageAdapter<SearchRow, BaseViewHolder<Bas
             return oldItem.getText().equals(newItem.getText());
         }
 
+        @SuppressLint("DiffUtilEquals")
         @Override
         public boolean areContentsTheSame(@NonNull SearchRow oldItem, @NonNull SearchRow newItem) {
             return oldItem.equals(newItem);
