@@ -1,5 +1,6 @@
 package com.notification.core.view.fragment.allNotifications;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
@@ -36,6 +37,7 @@ public class AllNotificationsAdapter extends BasePageAdapter<NotificationRow, Ba
             return oldItem.getAppPackage().equals(newItem.getAppPackage());
         }
 
+        @SuppressLint("DiffUtilEquals")
         @Override
         public boolean areContentsTheSame(@NonNull NotificationRow oldItem, @NonNull NotificationRow newItem) {
             return oldItem.equals(newItem);

@@ -2,6 +2,8 @@ package com.notification.core.view.activity.textWise;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
+
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -28,6 +30,7 @@ public class NotificationTextAdapter extends BasePageAdapter<NotificationRow, Ba
             return oldItem.getTime() == newItem.getTime();
         }
 
+        @SuppressLint("DiffUtilEquals")
         @Override
         public boolean areContentsTheSame(@NonNull NotificationRow oldItem, @NonNull NotificationRow newItem) {
             return oldItem.equals(newItem);

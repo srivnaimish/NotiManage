@@ -18,6 +18,7 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="url_privacy">https://letsthinkeasy.github.io/notimanage/privacy-policy.html</string>
+    <string name="_12_05">12:05</string>
     <string-array name="pref_save_entries">
         <item>Always</item>
         <item>1 week</item>
